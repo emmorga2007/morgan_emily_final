@@ -1,7 +1,8 @@
-<img src="images/logo_black.svg" alt="logo" width="200">
-<br>
-## <h2>Strathroy Brewing Company in Partnership with Lysol Canada Present: The Lysol Line-Up<h2>
-<br>
+<div align="center">
+  <img src="images/logo_black.svg" alt="logo" width="300">
+  <h2>Strathroy Brewing Company in Partnership with Lysol Canada Present: The Lysol Line-Up<h2>
+</div>
+
 ## Introduction to Project
 <h3>What<h3>
 Creating a functional, responsive, and dynamic webpage featuring a fictional partnership between the Lysol Company and Ontario's single location micro-brewery - Strathroy Brewing Company.

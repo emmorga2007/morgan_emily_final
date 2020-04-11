@@ -5,10 +5,10 @@
 </div>
 
 ## Introduction to Project
-###What?<br>
-Creating a functional, responsive, and dynamic webpage featuring a fictional partnership between the Lysol Company and Ontario's single location micro-brewery - Strathroy Brewing Company.
-###Why?<br>
-For my term 2 final integrated project meant to showcase all I have learned this semester.
+What?<br>
+Creating a functional, responsive, and dynamic webpage featuring a fictional partnership between the Lysol Company and Ontario's single location micro-brewery - Strathroy Brewing Company.<br>
+Why?<br>
+For my term 2 final integrated project meant to showcase all I have learned this semester.<br>
 
 ## Requirements
 Use a modern Browser such as [Firefox](https://www.mozilla.org/en-CA/firefox/new/) or [Chrome](https://www.google.ca/chrome/?brand=CHBD&gclsrc=aw.ds&&gclid=CjwKCAjw29vsBRAuEiwA9s-0B6zIdw5_qV4ETvbcN4042nlkfk9YggWT_DI1vM4UH4vWB2I0pdWUdhoCBWoQAvD_BwE). Avoid internet explorer. You will need git installed locally as well as a good code editor such as [Sublime](https://www.sublimetext.com). Subfolders are included.

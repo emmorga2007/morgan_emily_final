@@ -301,6 +301,13 @@ main{
 
 /*Our Story Page Open*/
 
+#storyvideo{
+	max-width: 40em;
+	max-height: 40em;
+	margin: auto;
+	padding: 22px 0px 22px 0px;
+}
+
 #storyinfo{
 	display: flex;
 	flex-direction: column;

@@ -51,6 +51,8 @@ font-style: normal;
 body{
 	font-family: 'latoregular', Helvetica, Arial, sans-serif;
   background-color: #E9E9E9 ;
+	margin: 0;
+	padding: 0;
 }
 
 a{
@@ -78,7 +80,7 @@ main{
   flex-direction: row;
   margin: 0px auto;
   max-width: 1200px;
-  background-color: #422b1f;
+  background-color: #64abcd;
   justify-content: space-around;
   padding: 0px, 16px, 0px, 16px;
 }
@@ -126,14 +128,16 @@ main{
 /*Header open*/
 
 .headerLogo{
-  background-image: url(../images/woodtex.jpg);
+  background-image: url(../images/woodtex.png);
+	background-size: 100% 100%;
   margin: 0px auto;
 }
+
 
 .headerLogo img{
   margin: 0px auto;
   max-width: 1200px;
-  max-height: 500px;
+  max-height: 400px;
   padding: 20px;
   transition-timing-function: ease-in;
   /* Quick on the way out */
@@ -152,6 +156,134 @@ main{
 
 /*Home page open*/
 
+.homeCont{
+	display:flex;
+	flex-direction: row;
+	max-width: 1200px;
+	margin:auto;
+
+}
+
+.homeAdvert{
+	padding: 90px 10px 90px 10px;
+	max-width: 20em;
+}
+.homeAdvert img{
+	max-width: 20em;
+}
+
+.pageDes{
+	display:flex;
+	flex-direction: column;
+}
+
+.inforow{
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+	margin: auto;
+}
+
+.infobar a {
+	text-decoration: none;
+	color: white;
+	margin: auto;
+	font-size: 23px;
+}
+
+.infobar h4{
+	margin:auto;
+}
+
+.infobar{
+	display:flex;
+	flex-direction: row;
+	padding: 5px, 20px, 5px, 20px;
+	text-align: center;
+	background-color: #64abcd;
+}
+
+.infoboxbar{
+	display:flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 40px;
+}
+
+.info p{
+	padding: 80px 20px 80px 20px;
+	font: 20px;
+	line-height: 25px;
+	color: black;
+}
+
+.info1{
+	width: 300px;
+	height: 300px;
+	font-size: 0px;
+	background-image: url(../images/home_story.png);
+	background-size: cover;
+}
+
+.info1:hover{
+	font-size: 23px;
+	width: 300px;
+	height: 300px;
+	padding:40px;
+	background-image: url(../images/fade_story.png);
+	background-size: cover;
+}
+
+.info2{
+	width: 300px;
+	height: 300px;
+	font-size: 0px;
+	background-image: url(../images/home_beer.png);
+	background-size: cover;
+}
+
+.info2:hover{
+	font-size: 23px;
+	width: 300px;
+	height: 300px;
+	padding:40px;
+	background-image: url(../images/fade_beer.png);
+	background-size: cover;
+}
+
+.info3{
+	width: 300px;
+	height: 300px;
+	font-size: 0px;
+	background-image: url(../images/home_secret.png);
+	background-size: cover;
+}
+
+.info3:hover{
+	font-size: 20px;
+	width: 300px;
+	height: 300px;
+	padding:40px;
+	background-image: url(../images/fade_secret.png);
+	background-size: cover;
+}
+
+.info4{
+	width: 300px;
+	height: 300px;
+	font-size: 0px;
+	background-image: url(../images/home_order.png);
+	background-size: cover;
+}
+
+.info4:hover{
+	font-size: 23px;
+	width: 300px;
+	height: 300px;
+	padding:40px;
+	background-image: url(../images/fade_order.png);
+	background-size: cover;
+}
 
 /*Home page close*/
 
@@ -160,39 +292,85 @@ main{
 /*Footer open*/
 
 footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-height: 100px;
+	background-color: #64abcd;
 }
 
-.footersbc img {
-  max-height: 100px;
-  max-width: auto;
+.sbcrow{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 14px;
 }
 
-.footersbc{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.sbcrow img{
+	max-width: 20em;
+	max-height: 20em;
+	padding: 1em;
 }
 
-.footersbc p{
-  padding: 40px 10px 0 0;
+.coninfo{
+	display:flex;
+	flex-direction: column;
+	margin: 40px 10px 0px 10px;
+	font-size: 20px;
+	line-height: 1.4em;
 }
 
-.footerlysol{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.coninfo h3{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	padding-bottom: 0.7em;
+}
+.coninfo p{
+	color:white;
+	font-size: 15px;
 }
 
-.footerlysol img {
-  max-height: 100px;
-  max-width: auto;
+.lysolrow{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	font-size: 14px;
+	max-width: 1200px;
 }
 
-.footerlysol p{
-  padding: 40px 10px 0 0;
+.lysol-logo-text{
+	display:flex;
+	flex-direction: row;
 }
+
+.lysol-logo-text img{
+	max-width: 10em;
+	max-height: 10em;
+	padding-right: 1em;
+
+}
+
+.lysolcopy {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 3em;
+	margin: auto;
+}
+
+.lysol-logo-text p {
+	display: flex;
+	flex-direction: column;
+}
+
+.socials{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 3em;
+}
+
+.socials img{
+	max-width: 60px;
+}
+
+
 /*Footer close*/

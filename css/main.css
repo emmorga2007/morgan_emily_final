@@ -462,6 +462,76 @@ main{
 
 /*The Secret close*/
 
+/*Contact open*/
+
+#contactcon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	max-width: 55em;
+	background-color: #3a6580;
+}
+
+#contactinfocol{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 16em;
+	background-color: #3a6580;
+	padding: 1em;
+}
+
+#contactinfocol h4{
+	color:#64abcd;
+	padding-top: 1em;
+	font-size: 1.7em;
+	text-align: left;
+}
+
+#contactinfocol p{
+	color: white;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+.contactcopy{
+	max-width: 39em;
+	background-color: #3a6580;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 4em;
+}
+
+.contactcopy h4{
+	font-size: 2em;
+	text-align: center;
+	font-weight: normal;
+	color: #64abcd;
+
+}
+
+.contactcopy p{
+	font-size: 1em;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	line-height: 1.3em;
+}
+
+
+.formline {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20em;
+	margin: auto;
+}
+
+/*Contact open*/
+
 /*Footer open*/
 
 footer{

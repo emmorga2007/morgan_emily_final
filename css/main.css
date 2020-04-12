@@ -328,7 +328,56 @@ main{
 }
 /*Our Story Page Close*/
 
+/*The Beer Open*/
 
+#beercolumn{
+	max-width: 50em;
+	margin: auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.beerrow{
+	display: flex;
+	flex-direction: row;
+	margin: 4em;
+}
+
+.beerrow img{
+	max-width: 25em;
+	max-height: 28em;
+}
+
+.beercopy{
+	margin: auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.beercopy p{
+	color:#3a6580;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.beercopy h4{
+	color: #64abcd;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+#beeradds{
+	display: flex;
+	flex-direction: row;
+	max-width: 50em;
+	margin: auto;
+}
+
+#beeradds img{
+	margin: 10px;
+	max-width: 25em;
+}
+/*The Beer Close*/
 
 /*Footer open*/
 

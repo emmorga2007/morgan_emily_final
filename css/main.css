@@ -130,6 +130,8 @@ main{
 	background-color: #3a6580;
 }
 
+
+
 /*Main Nav close*/
 /*Home Header open*/
 
@@ -295,6 +297,140 @@ main{
 	background-size: cover;
 }
 
+
+/*Mobile Media Query*/
+
+/*@media screen and (min-width:480px) {
+	body{
+		width: auto;
+		font-size: 8px;
+	}
+
+	.homeCont{
+		display:flex;
+		flex-direction: row;
+		max-width: 480px;
+		margin:auto;
+	}
+
+	.homeAdvert{
+		Display: none;
+	}
+
+	.pageDes{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.inforow{
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	.infobar a {
+		text-decoration: none;
+		color: white;
+		margin: auto;
+		font-size: 2em;
+	}
+
+	.infobar a:hover {
+		text-shadow: 0.1em 0.1em #3a6580;
+		font-weight: bold;
+	}
+
+	.infobar{
+		display:flex;
+		flex-direction: row;
+		text-align: center;
+		background-color: #64abcd;
+	}
+
+	.infoboxbar{
+		display:flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.info p{
+		padding: 2em 1em 2em 1em;
+		font: 1em;
+		line-height: 1.2me;
+		color: black;
+	}
+
+	.info1{
+		width: 150px;
+		height: 150px;
+		font-size: 0em;
+		background-image: url(../images/home_story.png);
+		background-size: cover;
+	}
+
+	.info1:hover{
+		font-size: 1.2em;
+		width: 150px;
+		height: 150px;
+		padding:3em;
+		background-image: url(../images/fade_story.png);
+		background-size: cover;
+	}
+
+	.info2{
+		width: 150px;
+		height: 150px;
+		font-size: 0em;
+		background-image: url(../images/home_beer.png);
+		background-size: cover;
+	}
+
+	.info2:hover{
+		font-size: 1.2em;
+		width: 150px;
+		height: 150px;
+		padding: 3em;
+		background-image: url(../images/fade_beer.png);
+		background-size: cover;
+	}
+
+	.info3{
+		width: 150px;
+		height: 150px;
+		font-size: 0em;
+		background-image: url(../images/home_secret.png);
+		background-size: cover;
+	}
+
+	.info3:hover{
+		font-size: 1.2em;
+		width: 150px;
+		height: 150px;
+		padding: 3em;
+		background-image: url(../images/fade_secret.png);
+		background-size: cover;
+	}
+
+	.info4{
+		width: 150px;
+		height: 150px;
+		font-size: 0em;
+		background-image: url(../images/home_order.png);
+		background-size: cover;
+	}
+
+	.info4:hover{
+		font-size: 1.2em;
+		width: 150px;
+		height: 150px;
+		padding: 2em;
+		background-image: url(../images/fade_order.png);
+		background-size: cover;
+	}
+
+
+}*/
+/*media query not working*/
 /*Home page close*/
 
 /*Our Story Page Open*/

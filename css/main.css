@@ -379,6 +379,89 @@ main{
 }
 /*The Beer Close*/
 
+/*The Secret open*/
+
+#secretheader{
+	display: flex;
+	flex-direction: row;
+	max-width: 55em;
+	margin:auto;
+	padding-top: 2em;
+}
+
+#secretheader img{
+	max-width: 30em;
+}
+
+#secretheader h4{
+	color: #64abcd;
+	font-size: 1.7em;
+	text-align: left;
+	margin: auto;
+	padding-left: 1.9em;
+}
+
+.quoterow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 55em;
+	margin: auto;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.quoterow img{
+	max-height: 10em;
+}
+
+#quotecopy h4{
+	font-size: 1.7em;
+	color: black;
+	text-align: center;
+}
+#quotecopy h5{
+	font-size: 2em;
+	color: #64abcd;
+	text-align: center;
+}
+#quotecopy p{
+	font-size: 1em;
+	text-align: right;
+}
+
+#articlecon{
+	display: flex;
+	flex-direction: row;
+	max-width: 55em;
+	margin: auto;
+}
+
+.secretcolumn{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ margin: auto;
+ max-width: 18em;
+}
+
+.secretcolumn h4{
+	color:#64abcd;
+	font-size: 2.3em;
+}
+
+.secretcolumn p{
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.tallbeer img{
+	max-width: 100em;
+}
+
+
+/*The Secret close*/
+
 /*Footer open*/
 
 footer{

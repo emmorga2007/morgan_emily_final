@@ -92,6 +92,15 @@ main{
   transition: padding-top 0.8s ease-in;
 }
 
+.leaf-logo{
+	display: flex;
+	flex-direction: row;
+}
+
+.leaf-logo img{
+	max-width: 5em;
+}
+
 
 .titleLogo h3, h4{
   color: #fff;
@@ -110,22 +119,21 @@ main{
 .navoptions li a{
   color: #fff;
   margin: 10px;
+	padding-top: 5px;
+	font-size: 15px;
 }
 
 .navoptions li a:hover{
-  color: #c1c0c0;
-  padding: 20px;
-  border-radius: 15px;
-  -webkit-transition: border-radius 0.5s;
+	text-shadow: 0.1em 0.1em #3a6580;
+	font-weight: bold;
 }
 
 .active{
-  color: #c1c0c0;
-  text-decoration: underline;
+	background-color: #3a6580;
 }
 
 /*Main Nav close*/
-/*Header open*/
+/*Home Header open*/
 
 .headerLogo{
   background-image: url(../images/woodtex.png);
@@ -152,8 +160,7 @@ main{
   transform: scale(1.02,1.02);
 }
 
-/*Header close*/
-
+/*Home Header close*/
 /*Home page open*/
 
 .homeCont{
@@ -189,6 +196,11 @@ main{
 	color: white;
 	margin: auto;
 	font-size: 23px;
+}
+
+.infobar a:hover {
+	text-shadow: 0.1em 0.1em #3a6580;
+	font-weight: bold;
 }
 
 .infobar h4{
@@ -286,6 +298,35 @@ main{
 }
 
 /*Home page close*/
+
+/*Our Story Page Open*/
+
+#storyinfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	max-width: 500px;
+	margin: auto;
+}
+
+.storyinforow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 500px;
+}
+
+.storyinforow img{
+	max-width: 15em;
+}
+
+.storyinforow p{
+	max-width: 50%;
+	padding: 1em;
+	margin: auto;
+	line-height: 1.1em;
+}
+/*Our Story Page Close*/
 
 
 
